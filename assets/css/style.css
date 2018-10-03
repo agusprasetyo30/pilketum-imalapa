@@ -36,8 +36,28 @@ h4 {
 .listcalon:hover {
    text-decoration: none;
    color: black;
-   transition: 0.3s all;
-   background: #e0e0e05e;
+   transition: 0.5s all;
+   background: #afafaf7a;
+   
+}
+
+.bawah{
+  position: absolute;
+  bottom: 50px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #afafafa4;
+}
+
+.kolom-jumlah{
+  padding: 50px;
+  /* padding-bottom: 100px; */
 }
 
 .login{
@@ -54,6 +74,7 @@ h4 {
   padding-right: 0px;
   padding-left: 0px;
 }
+
 
 .animasi{
    animation: animationFrames ease 1s;
