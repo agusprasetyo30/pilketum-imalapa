@@ -33,6 +33,9 @@
 					<li class="nav-item active">
 						<a class="nav-link" href="chart.php">Jumlah perolehan suara</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../">Keluar</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -50,7 +53,7 @@
 								?>
 						<div class="col-md-4 justify-content-center">
 							<div class="card text-white bg-primary">
-									<h4 class="card-text p-2 text-center"><?=$data['id_calon']?></h4>
+									<h4 class="card-text p-2 text-center"><?=$data['nama']?></h4>
 									<div class="card text-center text-dark kolom-jumlah">
 										<?php
 											$jumlah = $cln->kandidat($data['id_calon']);

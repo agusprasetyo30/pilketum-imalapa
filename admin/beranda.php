@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Auto reload 2 detik -->
+	<meta http-equiv="refresh" content="5">
 	<title>Document</title>
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/style.css">
@@ -26,6 +28,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="chart.php">Jumlah perolehan suara</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../">Keluar</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -38,13 +43,13 @@
 			<div class="col-md-4">
 			<div class="card text-white bg-dark">
                <h4 class="card-text p-2 text-center">Jumlah Pemilih keseluruhan</h4>
-               <div class="card text-center text-dark" style="padding:80px;">
+               <div class="card text-center text-dark" style="padding:70px;">
                <?php
 							require "../class.php";
 							$data = new suara;
 							$jumlah = $data->totalpemilih();
 						?>
-                  <h2><?=$jumlah?></h2> Orang
+                  <h1 style="font-size:60px;"><?=$jumlah?></h1> Orang
                </div>
          </div>
 			</div>

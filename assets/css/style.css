@@ -1,7 +1,9 @@
 * {
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+body{
+  background: url("/assets/img/background.jpg") ;
+}
 .valign {
    position: absolute;
    left: 50%;
@@ -38,12 +40,18 @@ h4 {
    color: black;
    transition: 0.5s all;
    background: #afafaf7a;
-   
 }
 
 .bawah{
   position: absolute;
+  text-decoration: none;
   bottom: 50px;
+  right: 50px;
+  font-size:25px;
+}
+
+.bawah i , .bawah a{
+  color:black;
 }
 
 .footer{

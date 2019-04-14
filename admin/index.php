@@ -6,7 +6,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Document</title>
    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/style.css">
@@ -19,7 +19,7 @@
                <h4 class="card-text p-2 text-center">LOGIN ADMIN</h4>
                <div class="card text-center text-dark p-3">
                <form action="" method="post">
-                  <input type="text" class="form-control" autofocus="on" autocomplete="off" name="input_sandi" placeholder="Masukan kata sandi" required>
+                  <input type="password" class="form-control" autofocus="on" autocomplete="off" name="input_sandi" placeholder="Masukan kata sandi" required>
                   <input type="submit" class="btn btn-block btn-primary" name="login" value="LOGIN">
                   <a href="../" class="btn btn-block btn-warning">KEMBALI</a>
                </form>

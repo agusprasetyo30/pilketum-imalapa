@@ -1,5 +1,6 @@
 <?php
 include "class.php";
+include "./koneksi/koneksi.php";
 $suara = new suara;
 $id = $_GET['id'];   
 $pilihCalon = $suara->pilihCalon($id);
@@ -10,6 +11,6 @@ $pilihCalon = $suara->pilihCalon($id);
       echo "<script>
          alert('Tidak sukses');
       </script>";
-      echo mysqli_error($koneksi);
+      echo mysqli_error($suara->koneksi);
    }
 ?>
