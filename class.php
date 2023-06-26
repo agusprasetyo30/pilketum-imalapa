@@ -1,10 +1,13 @@
 <?php
 include "koneksi/koneksi.php";
+
 class suara
 {
+   public $koneksi;
+   
    function __construct()
    {
-      $this->koneksi = mysqli_connect("localhost", "root", "gokpras123", "pilketum_imalapa") or trigger_error(mysqli_error($this->koneksi), E_USER_NOTICE);
+      $this->koneksi = mysqli_connect("localhost", "agusprasetyo30", "", "pilketum_imalapa") or trigger_error(mysqli_error(), E_USER_NOTICE);
    }
 
    function pilihCalon($id)

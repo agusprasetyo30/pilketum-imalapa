@@ -17,7 +17,7 @@
 		<div class="container">
 			<a class="navbar-brand" href="beranda.php">Pilketum Imalapa</a>
 			<button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
-			        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+					aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="collapsibleNavId">
